@@ -3,7 +3,6 @@ import requests
 import json
 from datetime import datetime, timedelta
 import datetime
-import psycopg2
 import database_config
 import os
 
