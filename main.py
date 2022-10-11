@@ -1,6 +1,5 @@
 import pandas as pd
 import requests
-import json
 from datetime import datetime, timedelta
 import datetime
 import database_config
@@ -8,7 +7,7 @@ import os
 
 
 SPOTIFY_ID = os.environ.get('Spotify-ID')
-TOKEN = 'BQA6iB7RKA5vuk1cECvd0N_kM576QhowdhqJWTQ2AF-_S6MKwOnBWbUH6x-JNKrjhqeDp9_x0hscl1gw2jNHGXepIRBoEM3YoB2YSg0QbRVuFuOA0qN9dOyvkdl1UbE4MEtsad8Lt3YkYCYixjpiyr1gZ0fZPHGlKxH2L2lgFvgoD8Z2yYGJtPW7NcfIrjGj84xK2Ftc'
+TOKEN = 'BQDYjDUOd9-J2FmdErqmflMETw4RetQkPos-pHL9GDaE42CDlZ5KaCGzak8bacKiWcH6S9C2YACa6yRlBbcSnOWgrteqpcus000NaB93h_QDXt2oWGXVVJE6aSXFk3gGW0Wq3UXPuXxCZc0J-j5Jz3fD4ULGl321sRknhKtMhn6DZoBJPcHSsx16XFF8At1fdY_7CpXN'
 
 # Validating the Data
 
